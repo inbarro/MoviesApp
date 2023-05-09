@@ -1,0 +1,33 @@
+@import '../../../colors.css#black';
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 0 1rem;
+    width: 90%;
+}
+
+.arrow {
+    height: 2rem;
+    width: 2rem;
+    z-index: 0;
+}
+
+.arrowLeft {
+    margin-right: 1rem;
+}
+
+.arrowRight {
+    margin-left: 1rem;
+}
+
+.text {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
+}

@@ -1,0 +1,87 @@
+@import '../../colors.css#black';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    max-width: 500px; /* Adjust this value as needed */
+}
+
+.movie-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    width: 100%;
+    display: inline-block;
+    /*flex-direction: column;*/
+    justify-content: start;
+    font-family: Georgia, sans-serif;;
+    font-weight: normal;
+    /*align-items: center;*/
+    color: var(--black);
+    padding-top: 0.5rem;
+}
+
+.movie-name {
+    /*display: inline-block;*/
+    /*justify-content:;*/
+    padding-right: 0.5rem;
+}
+
+.movie-released {
+    /*display: inline-block;*/
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*padding: 1rem;*/
+    padding-top: 1rem;
+
+;
+}
+
+/*iPhone X*/
+@media (min-width: 375px) {
+    .title {
+        font-size: 20px;
+    }
+}
+
+/* 'web */
+@media (min-width: 1686px) {
+    .title {
+        font-size: 20px;
+        /*max-width: 45%;*/
+    }
+}
+
+/* Web 1920 screen*/
+@media (min-width: 1920px) {
+    .title {
+        font-size: 24px;
+    }
+}
+
+.rating {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.star-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.4rem;
+}
