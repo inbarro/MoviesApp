@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.movie-img {
+    max-height: 80vh;
+    margin-right: 1rem;
+    padding-right: 5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 5rem;
+}
+
+.content-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-family: Arial, sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: start;
+    color: var(--black);
+    margin-bottom: 0.4rem;
+}
+
+.runtime {
+    font-family: Arial, sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    font-family: Arial, sans-serif;
+    margin-bottom: 0.9rem;
+}
+
+.synopsis{
+    font-size: 1.2rem;
+    font-family: Georgia, sans-serif;;
+}
+
+.content-down {
+    width: 50%;
+}
+
+

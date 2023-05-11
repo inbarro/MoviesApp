@@ -1,19 +1,21 @@
 import React, {useState, useEffect} from 'react';
 import style from './MovieCard.module.css';
-import The_godfather from '../../assets/images/The_godfather.png'
+import noMovieImage from '../../assets/moviesPostersImages/no_image.png'
 import starIcon from '../../assets/images/star.svg'
 import NavButton from '../UI/NavButton/NavButton';
-// import {getMovieInfo} from '../../services/Movie.service';
+
 
 function MovieCard({ movie, onClick }) {
+    // let imageSource =
 
     function handleClick() {
         onClick(movie);
     }
 
+
     return (
-        <div className={style.container} onClick={handleClick}>
-            <img className={style["movie-img"]} src={The_godfather} alt={''}/>
+        <div className={style.container} >
+            <img className={style["movie-img"]} src={movie?.image ? movie.image : noMovieImage} alt={''}/>
             <div className={style.title}>
                 <span className={style["movie-name"]}>{movie.title}</span>
                 <span className={style["movie-released"]}>({movie.released})</span>
@@ -24,7 +26,7 @@ function MovieCard({ movie, onClick }) {
                     <div> {movie.rating} </div>
                 </div>
                 <div className={style['nav-button']}>
-                    <NavButton text={'Read more'}/>
+                    <NavButton text={'Read more'} handleClick={handleClick} color={'blue'}/>
                 </div>
             </div>
         </div>

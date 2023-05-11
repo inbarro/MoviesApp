@@ -1,12 +1,14 @@
 @import '../../../colors.css#black';
+@import '../../../colors.css#blue';
 
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     border-radius: 40px;
+    /*background-color: var(--blue);*/
     padding: 0.5rem 1rem;
     width: 90%;
 }

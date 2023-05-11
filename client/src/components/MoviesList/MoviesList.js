@@ -1,10 +1,11 @@
-import React, {Fragment, useState, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
+import { formatListOfMovies }  from '../../utils/movies.helper'
 import style from './MoviesList.module.css'
 import XLTitle from '../UI/XLTitle/XLTitle'
 import MovieCard from '../MovieCard/MovieCard';
 import MovieInfo from '../MovieInfo/MovieInfo';
 
-const MoviesList = props => {
+const MoviesList = () => {
 
     const [moviesList, setMoviesList] = useState([]);
     const [movieInfoIsShown, setMovieInfoIsShown] = useState(false);
@@ -12,7 +13,8 @@ const MoviesList = props => {
 
     useEffect(()=> {
         setMoviesList(
-            [
+            formatListOfMovies(
+                [
                 {
                     "id": "207856",
                     "title": "2001: A Space Odyssey",
@@ -61,9 +63,9 @@ const MoviesList = props => {
                     "image": "https://occ-0-1926-41.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABet1M0odJ5zjsEwRnDSs-Kj_vi5WZC-9SH7lraHwERvmUuErGWd0neKOtWlcAi9tLlfJfwMJw4kraZsHyfWlG-PqnA.jpg?r=e28",
                     "synopsis": "A neo-Nazi gets sent to prison for murder and comes out a changed man. But can he prevent his younger brother from following in his footsteps?<br><b>New on 2020-06-18</b>",
                     "rating": "8.5",
-                    "type": "movie",
                     "released": "1998",
                     "runtime": "1h58m",
+                    "type": "movie",
                     "largeimage": "https://occ-0-2774-2773.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABbHt3NoFOvz3C4W44SvcUcNulmJZV6LpOj0P81LNU1I5VmtJkFnLz9fiz_gA71vaDytjDqocpe1ay7FJS3-mn5kvS4VT.jpg?r=e28",
                     "unogsdate": "2020-06-18",
                     "imdbid": "tt0120586",
@@ -210,6 +212,7 @@ const MoviesList = props => {
                     "download": "1"
                 },
              ]
+            )
         );
     },[]);
 
