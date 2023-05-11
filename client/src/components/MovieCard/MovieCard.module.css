@@ -2,8 +2,8 @@
 
 .container {
     display: grid;
-    grid-template-rows: 16rem 3.5rem 5rem;
-    padding: 0.5rem;
+    grid-template-rows: 16rem 4.5rem 5rem;
+    padding: 0.4rem;
     max-width: 500px;
 }
 
@@ -27,9 +27,6 @@
 
 .movie-name {
     padding-right: 0.5rem;
-}
-
-.movie-released {
 }
 
 .description{
@@ -69,26 +66,4 @@
     .title {
         font-size: 24px;
     }
-}
-
-.rating {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    font-size: 1.1rem;
-    padding-top: 0.8rem;
-}
-
-.star-img{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 0.4rem;
-}
-
-.star-img img{
-    height: 1.2rem;
 }

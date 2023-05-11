@@ -1,0 +1,21 @@
+.rating {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.star-img{
+    display: flex;
+    align-items: center;
+    padding-right: 0.4rem;
+}
+
+.star-img img {
+    height: 1.2rem;
+}

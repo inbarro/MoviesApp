@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ffe488-c2b5-4b81-aae7-7b16fc330a54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/assets/moviesPostersImages/no_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MovieRating/MovieRating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MovieRating/MovieRating.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/images/The_godfather.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/moviesPostersImages/The_godfather.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ReadMoreButton/ReadMoreButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ReadMoreButton/ReadMoreButton.omdule.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/movies.helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Popup/Popup.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Popup/Popup.module.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="289">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -42,62 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/movies.json">
+        <entry file="file://$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="70" column="4" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-              <folding>
-                <element signature="e#4#833#0" />
-                <element signature="e#837#1664#0" />
-                <element signature="e#1668#2490#0" />
-                <element signature="e#2494#3313#0" />
-                <element signature="e#3317#4132#0" />
-                <element signature="e#4136#4923#0" />
-                <element signature="e#4927#5739#0" />
-                <element signature="e#5743#6552#0" />
-                <element signature="e#7380#8218#0" />
-                <element signature="e#8222#9028#0" />
-                <element signature="e#9032#9835#0" />
-                <element signature="e#10674#11503#0" />
-                <element signature="e#12321#13145#0" />
-                <element signature="e#13149#13996#0" />
-                <element signature="e#14000#14832#0" />
-                <element signature="e#14836#15648#0" />
-                <element signature="e#15652#16477#0" />
-                <element signature="e#16481#17296#0" />
-                <element signature="e#17300#18140#0" />
-                <element signature="e#18144#18983#0" />
-                <element signature="e#18987#19839#0" />
-                <element signature="e#19843#20636#0" />
-                <element signature="e#20640#21447#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="482">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -110,6 +51,57 @@
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="49" column="23" selection-start-line="49" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/MovieRating/MovieRating.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/components/MovieRating/MovieRating.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -143,12 +135,13 @@
       <find>rating</find>
       <find>font-</find>
       <find>font-si</find>
-      <find>content-down</find>
       <find>images</find>
       <find>Godtather</find>
       <find>getMovieImagePath</find>
       <find>formatListOfMovies</find>
       <find>utils</find>
+      <find>content-down</find>
+      <find>grid</find>
     </findStrings>
     <replaceStrings>
       <replace>moviesPostersImages</replace>
@@ -173,21 +166,23 @@
         <option value="$PROJECT_DIR$/client/src/components/UI/XLTitle/XLTitle.module.css" />
         <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/colors.js" />
-        <option value="$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.module.css" />
         <option value="$PROJECT_DIR$/client/src/colors.js" />
         <option value="$PROJECT_DIR$/client/src/components/UI/Popup/Popup.module.css" />
-        <option value="$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.module.css" />
-        <option value="$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.module.css" />
         <option value="$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.module.css" />
         <option value="$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.js" />
-        <option value="$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.js" />
         <option value="$PROJECT_DIR$/client/src/App.js" />
         <option value="$PROJECT_DIR$/client/src/CONSTS" />
         <option value="$PROJECT_DIR$/client/src/config.js" />
         <option value="$PROJECT_DIR$/client/src/utils/helper.js" />
-        <option value="$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.js" />
         <option value="$PROJECT_DIR$/client/src/utils/movies.helper.js" />
         <option value="$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.js" />
+        <option value="$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.js" />
+        <option value="$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.module.css" />
+        <option value="$PROJECT_DIR$/client/src/components/MovieRating/MovieRating.js" />
+        <option value="$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.module.css" />
+        <option value="$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.module.css" />
+        <option value="$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.js" />
+        <option value="$PROJECT_DIR$/client/src/components/MovieRating/MovieRating.module.css" />
       </list>
     </option>
   </component>
@@ -226,21 +221,6 @@
               <item name="MoviesApp" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MoviesApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MoviesApp" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="moviesPostersImages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MoviesApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MoviesApp" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,7 +245,7 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="MoviesList" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieRating" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MoviesApp" type="b2602c69:ProjectViewProjectNode" />
@@ -283,22 +263,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
               <item name="NavButton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MoviesApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MoviesApp" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="Popup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MoviesApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MoviesApp" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MoviesApp" type="b2602c69:ProjectViewProjectNode" />
@@ -383,12 +347,12 @@
       <workItem from="1683448229520" duration="43816000" />
       <workItem from="1683641253407" duration="22458000" />
       <workItem from="1683810527539" duration="5790000" />
-      <workItem from="1683816853428" duration="19565000" />
+      <workItem from="1683816853428" duration="25590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107526000" />
+    <option name="totallyTimeSpent" value="113551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -535,13 +499,6 @@
     <entry file="file://$PROJECT_DIR$/server/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/UI/Popup/Popup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -569,42 +526,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/ReadMoreButton/ReadMoreButton.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -620,13 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -676,13 +592,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/MoviesList/MoviesList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="121">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#523#1558#0" />
             <element signature="e#116#121#0" expanded="true" />
             <element signature="e#67#72#0" expanded="true" />
             <element signature="e#107#114#0" expanded="true" />
@@ -698,13 +627,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/UI/NavButton/NavButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/MovieInfo/MovieInfo.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" column="23" selection-start-line="49" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/MovieRating/MovieRating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/MovieCard/MovieCard.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/MovieRating/MovieRating.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
