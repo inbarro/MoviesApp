@@ -1,0 +1,6 @@
+.card {
+    display: grid;
+    grid-template-rows: 16rem 4.5rem 5rem;
+    padding: 0.4rem;
+    max-width: 500px;
+}

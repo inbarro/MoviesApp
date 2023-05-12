@@ -1,20 +1,19 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import style from './MovieCard.module.css';
 import noMovieImage from '../../assets/moviesPostersImages/no_image.png'
+import Card from '../UI/Card/Card'
 import NavButton from '../UI/NavButton/NavButton';
 import MovieRating from '../MovieRating/MovieRating'
 
 
 function MovieCard({ movie, onClick }) {
-    // let imageSource =
 
     function handleClick() {
         onClick(movie);
     }
 
-
     return (
-        <div className={style.container} >
+        <Card>
             <img className={style["movie-img"]} src={movie?.image} alt={noMovieImage}/>
             <div className={style.title}>
                 <span className={style["movie-name"]}>{movie.title}</span>
@@ -26,7 +25,7 @@ function MovieCard({ movie, onClick }) {
                     <NavButton text={'Read more'} handleClick={handleClick} color={'blue'}/>
                 </div>
             </div>
-        </div>
+        </Card>
     );
 }
 

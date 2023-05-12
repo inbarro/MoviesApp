@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './SearchBar.module.css';
 
-function SearchBar({ value, onChange }) {
+function SearchBar({ value, onChange, placeholder }) {
     return (
-        <div className={styles.container}>
+        <div className={styles.searchBar}>
             <input
                 type="text"
-                className={styles.input}
-                placeholder="Search cities"
+                className={styles["searchBar-input"]}
+                placeholder= {placeholder ? placeholder :"Search"}
                 value={value}
                 onChange={onChange}
             />
