@@ -19,9 +19,8 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 90%;
-    align-items: stretch;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
 }
 
 .movie-card {
