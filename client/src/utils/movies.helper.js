@@ -1,10 +1,14 @@
 
 const formatListOfMovies = (moviesList) => {
-    return [...moviesList.map( movie =>  ({...movie, synopsis: removeRedundantTags(movie.synopsis)}))]
+    return [...moviesList.map( movie =>
+        ({...movie,
+            title:removeRedundantTags(movie.title),
+            synopsis: removeRedundantTags(movie.synopsis)
+        }))]
 };
 
 const removeRedundantTags = (text) => {
-    return text.replace(/<\/?[^>]+(>|$)|\/>|&mdash;/g, ' ').trim()+'.';
+    return text.replace(/<\/?[^>]+(>|$)|\/>|&mdash;|xFF0D|uuml;|[^a-zA-Z0-9\s]/g, ' ').trim();
 };
 
 const getMinMaxMovieYear = (moviesList) => {
