@@ -1,10 +1,18 @@
-
-
-.container {
+/* Card */
+.card {
     display: grid;
     grid-template-rows: 16rem 4.5rem 5rem;
     padding: 0.4rem;
-    max-width: 500px;
+    max-width: 100%;
+}
+
+/* MovieCard */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    padding: 0.4rem;
+    max-width: 100%;
 }
 
 .movie-img {
@@ -29,7 +37,7 @@
     padding-right: 0.5rem;
 }
 
-.description{
+.description {
     grid-row: 3/4;
     width: 100%;
     display: flex;
@@ -42,26 +50,18 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    /*padding: 1rem;*/
     padding-top: 0.7rem;
 }
 
-/*iPhone X*/
+/* iPhone X */
 @media (min-width: 375px) {
     .title {
         font-size: 20px;
     }
+
 }
 
-/* 'web */
-@media (min-width: 1686px) {
-    .title {
-        font-size: 20px;
-        /*max-width: 45%;*/
-    }
-}
-
-/* Web 1920 screen*/
+/* Web 1920 screen */
 @media (min-width: 1920px) {
     .title {
         font-size: 24px;
